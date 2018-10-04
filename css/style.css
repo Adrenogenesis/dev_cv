@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'Roboto';
     src: url(Roboto);
@@ -6,21 +5,27 @@
 
 
 body {
-    height: 1542px;
-    width: auto;
-    /* to centre page on screen*/
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid black;
-    font-family: 'Roboto';
+	height: 1542px;
+	width: auto;
+	/* to centre page on screen*/
+	margin-left: auto;
+	align-self: center;
+	border: 1px solid black;
+	font-family: 'Roboto';
 
 
 }
 
 avatar {
+	width: 200px;
+	height: 200px;
+	
+	display: inline-block;
+}
 
-    width: 200px;
-    height: 200px;
+container {
+	width: 100%;
+	align-content: center;
 }
 
 h1 {
@@ -34,8 +39,7 @@ h2 {
     color: white;
     background-color: darkorange;
     font-size: 32px;
-    font-family: 'Quicksand-Regular';
-       
+    font-family: "Quicksand Regular";       
     margin-right: 20px;
     margin-left: 20px;
     border: 2px solid red;
@@ -43,14 +47,32 @@ h2 {
    
    }
 
+h3 {
+	margin-left: 60px;
+}
+
 img {
-    width: 200px;
-    height: auto;
-    margin-right: auto;
-    margin-left: 42%;
-  
-   box-shadow: 2px 2px 2px rgb(116, 114, 114);
+	height: auto;
+	width: 100%;
+	
+	box-shadow: 2px 2px 2px rgb(116, 114, 114);
      
+}
+
+header {
+	align-content: center;
+	width: 200px;
+	height: 200px;
+	margin-left: 42%;
+	display: inline-block;
+}
+
+footer {
+	
+}
+
+p {
+	margin-left: 60px;
 }
 
 table {
@@ -76,17 +98,6 @@ tr {
 
 }
 
- year {
-    width: 100px;
-}
-
- poste {
-    width: 200px;
-}
-
-col:nth-child(3) {
-    background: yellow; 
-  }
 
   ol {
     border-left: 3px solid blue;
@@ -99,4 +110,11 @@ col:nth-child(3) {
 
   ul {
    
-  }
+  }.c1 {
+}
+.c0 {
+}
+.t0 {
+}
+.t1 {
+}
