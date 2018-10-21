@@ -5,7 +5,7 @@
 
 
 body {
-	height: 1542px;
+	height: auto;
 	width: auto;
 	/* to centre page on screen*/
 	margin-left: auto;
@@ -16,14 +16,14 @@ body {
 
 }
 
-avatar {
+.avatar {
 	width: 200px;
 	height: 200px;
 	
 	display: inline-block;
 }
 
-container {
+.container {
 	width: 100%;
 	align-content: center;
 }
@@ -110,4 +110,12 @@ table, th, td {
   }
 
   ul.a {list-style-type: square;}
+
+  .contact {
+      width: 100%;
+      position: relative;
+      height: auto;
+      display: flex;
+      justify-content: center;
+  }
 
