@@ -1,0 +1,122 @@
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border: 1px solid blue;
+    background-color:  #F7BE81;
+    box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.2);
+    z-index: 9;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(241,241,241,0.85);
+    border-radius: 5px;
+    min-width: 160px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #0000ff;}
+
+.portfolio {
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px #888888;
+    background-image: linear-gradient(to right top, #eeeeee, #dfe1f3, #c7d7f8, #a4cffd, #71c8ff);
+}
+
+.top{top:0}
+.middle{top:50%;margin-top:-10px;/*half of the .box height*/}
+.bottom{bottom:0}
+
+.left{left:0;}
+.center{left:50%;margin-left:-10px;/*half of the .box width*/}
+.right{right:0;}
+
+p {
+    margin: 2%;
+   }
+
+ul {
+    background-image: linear-gradient(to top, #2b304f, #414868, #586281, #717c9c, #8a98b7, #8f9ebf, #93a5c6, #98abce, #889dc3, #788fb9, #6981ae, #5974a4);
+}
+
+.titre {
+    position: relative;
+    }
+
+.cv {
+    margin-top: 1%;
+    }
+
+.entete {
+    width: 20%;
+    height: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.over {
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    overflow: hidden;
+}
+
+.h2rel {
+    background-color: aqua;
+}
+
+.content {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.blog {
+    width: 20%;
+    height: auto;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.prfDesc-1{
+    width: 90%;
+    background-color: #CCEEFA;
+    margin: auto;
+    border-radius: 1%;
+}
+
+
+
